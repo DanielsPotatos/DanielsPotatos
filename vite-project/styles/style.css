@@ -10,15 +10,14 @@ body,
 }
 
 :root {
-  --black: #000;
-  --dark-gray: #2F4F4F;
   --light-yellow: #FFD700;
   --dark-yellow: #DAA520;
-  
+  --black: #000;
+  --dark-gray: #2F4F4F;
 
   /*Intentions */
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
+  --primary: var(--light-yellow);
+  --secondary: var(--dark-yellow);
 
   /*Typography */
   --h1: 7.594rem;
@@ -27,4 +26,9 @@ body,
   --h4: 2.25rem;
   --h5: 1.5rem;  
 }
+
+.title {
+  font-size: var(--h1);
+  background-color: var(--primary);
+  }
 
