@@ -30,6 +30,12 @@ body,
 .title {
   font-size: var(--h1);
   background-color: var(--primary);
+  text-align: center;
   }
+
+
+
+
+
 
 
