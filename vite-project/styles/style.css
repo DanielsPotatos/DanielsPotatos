@@ -38,6 +38,21 @@ body,
     background-color: var(--secondary);
 }
 
+.btn{
+  text-align: center;
+  font-size: var(--h2);
+  border-radius: 5rem;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.btn1{
+  text-align: center;
+  font-size: var(--h2);
+  border-radius: 5rem;
+  align-items: center;
+  margin-right: 5rem;
+}
 
 
 
