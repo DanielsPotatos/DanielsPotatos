@@ -43,8 +43,9 @@ body,
   font-size: var(--h2);
   border-radius: 2rem;
   align-items: center;
-  margin-right: 5rem;
-  padding: 3rem 3rem
+  padding: 3rem 3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn1{
@@ -52,7 +53,8 @@ body,
   font-size: var(--h2);
   border-radius: 2rem;
   align-items: center;
-  margin-right: 5rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 3rem 3rem;
 }
 
