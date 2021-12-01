@@ -41,17 +41,19 @@ body,
 .btn{
   text-align: center;
   font-size: var(--h2);
-  border-radius: 5rem;
+  border-radius: 2rem;
   align-items: center;
   margin-right: 5rem;
+  padding: 3rem 3rem
 }
 
 .btn1{
   text-align: center;
   font-size: var(--h2);
-  border-radius: 5rem;
+  border-radius: 2rem;
   align-items: center;
   margin-right: 5rem;
+  padding: 3rem 3rem;
 }
 
 
