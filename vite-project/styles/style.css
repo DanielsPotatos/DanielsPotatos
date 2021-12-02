@@ -47,9 +47,7 @@ body,
   align-items: center;
   padding: 1rem 1rem;
   margin: 50px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
   
 }
 
@@ -60,9 +58,7 @@ body,
   align-items: center;
   padding: 1rem 1rem;
   margin: 50px auto; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 
 .warm {
@@ -84,6 +80,11 @@ body,
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
+.main{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
 
 
