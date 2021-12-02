@@ -12,8 +12,8 @@ body,
 :root {
   --light-yellow: #FFD700;
   --dark-yellow: #DAA520;
-  --brown:#A52A2A;
-  --dark-gray: #2F4F4F;
+  --brown: #FFF8DC;
+  --dark-gray: ##A52A2A;
 
   /*Intentions */
   --primary: var(--light-yellow);
