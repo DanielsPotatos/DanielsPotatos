@@ -13,7 +13,7 @@ body,
   --light-yellow: #FFD700;
   --dark-yellow: #DAA520;
   --brown: #FFF8DC;
-  --dark-gray: ##A52A2A;
+  --dark-gray: #A52A2A;
 
   /*Intentions */
   --primary: var(--light-yellow);
