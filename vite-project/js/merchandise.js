@@ -1,4 +1,4 @@
-const products = [
+const merchandise = [
 {
     name:"Pikachu",
     price: "$2.0",
@@ -49,4 +49,4 @@ const products = [
 ];
 
 
-export { products };
+export { merchandise };

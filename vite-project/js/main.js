@@ -1,10 +1,10 @@
 import "../styles/style.css";
-import { products } from "./products";
+import { merchandise } from "./merchandise";
 document.querySelector('#app').innerHTML = `
   
   
 `;
-console.log(products);
+console.log(merchandise);
 
 document.querySelector(".btn").addEventListener("click", function () {
      document.body.classList.add("warm");
@@ -20,4 +20,3 @@ document.querySelector(".btn1").addEventListener("click", function () {
 });
 
 
-products.forEach((product)=>)
