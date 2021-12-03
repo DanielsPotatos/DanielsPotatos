@@ -19,4 +19,4 @@ document.querySelector(".btn1").addEventListener("click", function () {
    
 });
 
-
+merchandise.forEach((merchandise)=>)
