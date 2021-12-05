@@ -19,10 +19,15 @@ document.querySelector(".btn1").addEventListener("click", function () {
    
 });
 
-merchandise.forEach((merchandise)=>{
-
-
-
-
-    
-})
+function cardCreator(array) {
+  merchandise.forEach((mon) => {
+    pkms.parent.insertAdjacentHTML(
+      "beforeend",
+      `<div class="child">
+        <img class="display-img" src="${mon.img}"/>
+        <h2 class="display-name">${mon.name}</h2>
+        <h3 class="display-type">${mon.type}</h3>
+  </div> `
+    );
+  });
+}
