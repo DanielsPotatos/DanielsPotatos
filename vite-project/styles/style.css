@@ -27,7 +27,10 @@ body,
   --h5: 1.5rem;  
 }
 
-.Dark-Theme {
+body{
+    background-color: var(--secondary);
+
+.title {
   font-size: var(--h2);
   background-color: var(--primary);
   text-align: center;
@@ -36,8 +39,7 @@ body,
   padding: 2rem 2rem;
   }
 
-  body{
-    background-color: var(--secondary);
+  
 }
 
 .Light-Theme{
@@ -51,7 +53,7 @@ body,
   
 }
 
-.btn1{
+.Dark-Theme{
   text-align: center;
   font-size: var(--h4);
   border-radius: 1rem;
@@ -68,16 +70,6 @@ body,
 .cool {
   --primary: var(--brown);
   --secondary: var(--dark-gray);
-}
-
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
-}
-
-.btn1:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .main{ 
