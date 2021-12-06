@@ -15,7 +15,22 @@ document.querySelector(".btn1").addEventListener("click", function () {
     document.body.classList.remove("warm");
    
 });
+const DOMSelector = {
+  header: document.getElementById("header"),
+  box: document.getElementById("whole"),
+  dark: document.getElementById("dark-button"),
+  light: document.getElementById("light-button"),
+  fast: document.getElementById("fast"),
+  fly: document.getElementById("fly"),
+  ele: document.getElementById("electric"),
+  poi: document.getElementById("poison"),
+  wat: document.getElementById("water"),
+  psy: document.getElementById("psychic"),
+  buttons: document.querySelectorAll("button"),
+  parent: document.querySelector(".parent"),
+};
 
+export { pkms };
 function cardCreator(array) {
   merchandise.forEach((pokemon) => {
     DOMSelector.parent.insertAdjacentHTML(
