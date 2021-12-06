@@ -18,7 +18,7 @@ document.querySelector(".btn1").addEventListener("click", function () {
 
 function cardCreator(array) {
   merchandise.forEach((pokemon) => {
-    pkms.parent.insertAdjacentHTML(
+    DOMSelector.parent.insertAdjacentHTML(
       "beforeend",
       `<div class="child">
         <img class="display-img" src="${pokemon.img}"/>
