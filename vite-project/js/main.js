@@ -16,8 +16,10 @@ document.querySelector(".btn1").addEventListener("click", function () {
    
 });
 const DOMSelector = {
-  document.getElementById(""),
-     
+  document.getElementById("Dark-Theme"),
+  document.getElementById("Light-Theme"),
+  document.getElementById("Instock"),
+  document.getElementById("Outofstock"),
   buttons: document.querySelectorAll("button"),
   parent: document.querySelector(".parent"),
 };
