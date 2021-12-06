@@ -16,15 +16,15 @@ document.querySelector(".btn1").addEventListener("click", function () {
    
 });
 
-
-  merchandise.forEach((mon) => {
+function cardCreator(array) {
+  merchandise.forEach((pokemon) => {
     pkms.parent.insertAdjacentHTML(
       "beforeend",
       `<div class="child">
-        <img class="display-img" src="${mon.img}"/>
-        <h2 class="display-name">${mon.name}</h2>
-        <h3 class="display-price">${mon.price}</h3>
+        <img class="display-img" src="${pokemon.img}"/>
+        <h2 class="display-name">${pokemon.name}</h2>
+        <h3 class="display-price">${pokemon.price}</h3>
   </div> `
     );
   });
-
+}
