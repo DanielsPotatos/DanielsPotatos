@@ -16,10 +16,10 @@ document.querySelector("Light-Theme").addEventListener("click", function () {
    
 });
 const DOMSelector = {
-  document.getElementById("Dark-Theme"),
-  document.getElementById("Light-Theme"),
-  document.getElementById("Instock"),
-  document.getElementById("Outofstock"),
+  dark:document.getElementById("Dark-Theme"),
+  light:document.getElementById("Light-Theme"),
+  instock:document.getElementById("Instock"),
+  notinstock:document.getElementById("Outofstock"),
   buttons: document.querySelectorAll("button"),
   parent: document.querySelector(".parent"),
 };
