@@ -16,6 +16,13 @@ document.querySelector(".btn1").addEventListener("click", function () {
    
 });
 
+const DOMSelector = {
+warm:document.getElementById("btn"),
+dark:document.getElementById("btn1"),
+
+};
+
+
 function cardCreator(array) {
   merchandise.forEach((pokemon) => {
     pkms.parent.insertAdjacentHTML(
@@ -28,3 +35,4 @@ function cardCreator(array) {
     );
   });
 }
+cardCreator();
