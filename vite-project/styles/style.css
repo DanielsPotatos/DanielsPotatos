@@ -101,12 +101,46 @@ body,
   transform: translateY(-2px);
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
+.btn2:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+.btn3:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
 
-.main{ 
+.buttons{ 
   display: flex;
   align-items: center;
   justify-content: center;
 
 }
 
+.parent {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap row;
+  width: 90vw;
+  margin: 2rem auto;
+}
 
+.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 26%;
+  height: 28%;
+  margin: 5rem auto;
+  background-color: var(--primary);
+  color: white;
+  align-items: center;
+  font-size: 5rem;
+  padding: 3rem 3rem;
+  border: 2rem solid black;
+  border-radius: 5rem ;
+}
+.display-img {
+  width: 80%;
+  height: auto;
+}
