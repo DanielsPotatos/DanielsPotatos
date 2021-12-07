@@ -37,3 +37,8 @@ function cardCreator(array) {
     });
   }
 cardCreator();
+
+document.querySelector(".btn2").addEventListener("click", function () {
+  merchandise.filter((pokemons) => pokemons.price <= 10)
+
+});
