@@ -3,13 +3,13 @@ import { merchandise } from "./merchandise";
 
 console.log(merchandise);
 
-document.querySelector(".Dark-Theme").addEventListener("click", function () {
+document.getElementById("Dark-Theme").addEventListener("click", function () {
      document.body.classList.add("warm");
     document.body.classList.remove("cool");
-   
+  
 });
 
-document.querySelector("Light-Theme").addEventListener("click", function () {
+document.getElementById("Light-Theme").addEventListener("click", function () {
  
     document.body.classList.add("cool");
     document.body.classList.remove("warm");

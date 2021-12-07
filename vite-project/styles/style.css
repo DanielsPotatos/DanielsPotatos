@@ -29,7 +29,7 @@ body,
 
 body{
     background-color: var(--secondary);
-
+}
 .title {
   font-size: var(--h2);
   background-color: var(--primary);
@@ -40,11 +40,11 @@ body{
   }
 
   
-}
+
 
 .Light-Theme{
   text-align: center;
-  font-size: var(--h4);
+  font-size: var(--h2);
   border-radius: 1rem;
   align-items: center;
   padding: 1rem 1rem;
@@ -55,7 +55,7 @@ body{
 
 .Dark-Theme{
   text-align: center;
-  font-size: var(--h4);
+  font-size: var(--h2);
   border-radius: 1rem;
   align-items: center;
   padding: 1rem 1rem;
@@ -90,12 +90,6 @@ body{
   --secondary: var(--dark-gray);
 }
 
-.main{ 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
 
 
 .parent {
