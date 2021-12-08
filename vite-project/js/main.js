@@ -11,18 +11,6 @@ const DOMSelector = {
   parent: document.querySelector(".parent"),
 };
 
-document.querySelector(".btn").addEventListener("click", function () {
-  document.body.classList.add("warm");
- document.body.classList.remove("cool");
-
-});
-
-document.querySelector(".btn1").addEventListener("click", function () {
-
- document.body.classList.add("cool");
- document.body.classList.remove("warm");
-
-});
 
 
 
@@ -36,6 +24,7 @@ function adder(pokemon) {
     `<div class="child">
     <img class="display-img" src="${pokemon.img}"/>
     <h2 class="display-name">${pokemon.name}</h2>
+    <h3>Price</h3>
     <h3 class="display-price">${pokemon.price}</h3>
 </div> `
   );
@@ -47,6 +36,19 @@ function cardCreator() {
   });
 }
 cardCreator();
+
+document.querySelector(".btn").addEventListener("click", function () {
+  document.body.classList.add("warm");
+ document.body.classList.remove("cool");
+
+});
+
+document.querySelector(".btn1").addEventListener("click", function () {
+
+ document.body.classList.add("cool");
+ document.body.classList.remove("warm");
+
+});
 
 
 document.querySelector(".btn2").addEventListener("click", function () {
