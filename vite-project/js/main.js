@@ -40,14 +40,13 @@ cardCreator();
 
 
 document.querySelector(".btn2").addEventListener("click", function () {
-  const potato = merchandise.filter((pokemon) => pokemon.price <= 10.0)
+  const potato = merchandise.filter(pokemon => pokemon.price <= 10.0)
    
   console.log(potato);
-  return 
  });
  
  document.querySelector(".btn3").addEventListener("click", function () {
-   const potato2 = merchandise.filter((pokemon) => pokemon.price >= 10.0)
+   const potato2 = merchandise.filter(pokemon => pokemon.price >= 10.0)
     
    console.log(potato2);
   });
