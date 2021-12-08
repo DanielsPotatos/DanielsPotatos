@@ -47,6 +47,7 @@ body,
   align-items: center;
   padding: 1rem 1rem;
   margin: 50px auto;
+  background-color: var(--primary);
   
   
 }
@@ -58,6 +59,7 @@ body,
   align-items: center;
   padding: 1rem 1rem;
   margin: 50px auto; 
+  background-color: var(--primary);
   
 }
 
@@ -68,6 +70,7 @@ body,
   align-items: center;
   padding: 1rem 1rem;
   margin: 50px auto;
+  background-color: var(--primary);
   
   
 }
@@ -79,6 +82,7 @@ body,
   align-items: center;
   padding: 1rem 1rem;
   margin: 50px auto;
+  background-color: var(--primary);
   
   
 }
@@ -114,7 +118,6 @@ body,
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .parent {
