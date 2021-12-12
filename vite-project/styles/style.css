@@ -8,7 +8,6 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
-
 :root {
   --light-yellow: #FFD700;
   --dark-yellow: #DAA520;
@@ -26,6 +25,7 @@ body,
   --h4: 2.25rem;
   --h5: 1.5rem;  
 }
+
 
 .title {
   font-size: var(--h2);
