@@ -1,0 +1,149 @@
+@import url(variables.css);
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+:root {
+  --light-yellow: #FFD700;
+  --dark-yellow: #DAA520;
+  --brown: #DC143C;
+  --dark-gray: #A52A2A;
+
+  /*Intentions */
+  --primary: var(--light-yellow);
+  --secondary: var(--dark-yellow);
+
+  /*Typography */
+  --h1: 7.594rem;
+  --h2: 5.063rem;
+  --h3: 3.375rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;  
+}
+
+
+.title {
+  font-size: var(--h2);
+  background-color: var(--primary);
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  color: #F0FFFF;
+  padding: 2rem 2rem;
+  }
+
+  body{
+    background-color: var(--secondary);
+}
+
+.btn{
+  text-align: center;
+  font-size: var(--h4);
+  border-radius: 1rem;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin: 50px auto;
+  background-color: var(--primary);
+  
+  
+}
+
+.btn1{
+  text-align: center;
+  font-size: var(--h4);
+  border-radius: 1rem;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin: 50px auto; 
+  background-color: var(--primary);
+  
+}
+
+.btn2{
+  text-align: center;
+  font-size: var(--h4);
+  border-radius: 1rem;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin: 50px auto;
+  background-color: var(--primary);
+  
+  
+}
+
+.btn3{
+  text-align: center;
+  font-size: var(--h4);
+  border-radius: 1rem;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin: 50px auto;
+  background-color: var(--primary);
+  
+  
+}
+
+.warm {
+  --primary: var(--light-yellow);
+  --secondary: var(--dark-yellow);
+}
+.cool {
+  --primary: var(--brown);
+  --secondary: var(--dark-gray);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.btn1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+.btn2:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+.btn3:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.buttons{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap row;
+  width: 90vw;
+  margin: 2rem auto;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 26%;
+  height: 28%;
+  margin: 5rem auto;
+  background-color: var(--primary);
+  color: white;
+  align-items: center;
+  font-size: 5rem;
+  padding: 3rem 3rem;
+  border: 1rem solid black;
+  border-radius: 5rem ;
+}
+.display-img {
+  width: 80%;
+  height: auto;
+}
